@@ -1,0 +1,7 @@
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\bin\x64\Debug\ChickenBacon-Assistant-Norsk.exe.config
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\bin\x64\Debug\ChickenBacon-Assistant-Norsk.exe
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\bin\x64\Debug\ChickenBacon-Assistant-Norsk.pdb
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\obj\x64\Debug\ChickenBacon-Assistant-Norsk.csproj.CoreCompileInputs.cache
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\obj\x64\Debug\ChickenBacon-Assistant-Norsk.exe
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\obj\x64\Debug\ChickenBacon-Assistant-Norsk.pdb
+C:\KODING\ChickenBacon-Assistant-Norsk\ChickenBacon-Assistant-Norsk\obj\x64\Debug\ChickenBacon-Assistant-Norsk.csprojAssemblyReference.cache

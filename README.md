@@ -1,0 +1,1 @@
+# ChickenBacon-Assistant-Norsk
