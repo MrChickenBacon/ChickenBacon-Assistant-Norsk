@@ -1,0 +1,7 @@
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\bin\x64\Debug\ChickenBaconAssistantBjarne.exe.config
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\bin\x64\Debug\ChickenBaconAssistantBjarne.exe
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\bin\x64\Debug\ChickenBaconAssistantBjarne.pdb
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\obj\x64\Debug\ChickenBaconAssistantBjarne.csprojAssemblyReference.cache
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\obj\x64\Debug\ChickenBaconAssistantBjarne.csproj.CoreCompileInputs.cache
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\obj\x64\Debug\ChickenBaconAssistantBjarne.exe
+C:\KODING\ChickenBaconAssistantBjarne\ChickenBaconAssistantBjarne\obj\x64\Debug\ChickenBaconAssistantBjarne.pdb
