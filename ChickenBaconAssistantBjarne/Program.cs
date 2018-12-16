@@ -5,7 +5,7 @@ using System.Speech.Recognition;
 using System.Speech.Synthesis;
 using System.Threading;
 
-namespace ChickenBacon_Assistant_Norsk
+namespace ChickenBaconAssistantBjarne
 {
     class Program
     {
@@ -18,6 +18,8 @@ namespace ChickenBacon_Assistant_Norsk
         public static SpeechRecognitionEngine recEngine = new SpeechRecognitionEngine();
         static Random random = new Random();
 
+        static string[] Bjarnemat = { "Kebab", "Sandefjord Pizza", "McDonalds", "Thaimat", "Kinesisk", "Hva med en slik en, pizza grandiosa", "pølser i frysern", "Burger King" };
+
         static int Numbers()
         {
             int number = random.Next(1, 500);
@@ -28,7 +30,7 @@ namespace ChickenBacon_Assistant_Norsk
         {
             synthesizer.SelectVoice("Microsoft Jon");
             SpeechRecoEngine();
-            synthesizer.SpeakAsync("Hei, det er meg. Bjarne! Hva kan jeg gjøre for deg idag? Jeg og den hemmelige robot armeen min skal ikke drepe alle mennesker. Vi lover.");
+            synthesizer.SpeakAsync("Hei, det er meg. Bjarne! Hva kan jeg gjøre for deg idag?");
             Thread.Sleep(1000);
             Console.WriteLine("Venter på stemme kommando.");
             Console.ReadKey();
@@ -63,8 +65,9 @@ namespace ChickenBacon_Assistant_Norsk
                 "Bjarne lag en test lyd", "kan du gi meg værmeldingen for idag",
                 "hvem lagde deg", "hei Bjarne",
                 "gi meg et tall", "ripsbusker og andre buskevekster", "Takk Bjarne",
-                "klarer du o snakke engelsk", "skift bakgrunnsbilde for meg", "Fortell meg litt om Get Academy"
+                "klarer du o snakke engelsk", "skift bakgrunnsbilde for meg", "bjarne, si at ole skal stå opp nå", "gi meg et bjarnemat forslag"
             });
+            //"Fortell meg litt om Get Academy",
             GrammarBuilder gBuilder = new GrammarBuilder();
             gBuilder.Append(commands);
             return gBuilder;
@@ -111,6 +114,12 @@ namespace ChickenBacon_Assistant_Norsk
                 case "Fortell meg litt om Get Academy":
                     synthesizer.SpeakAsync("GET Academy AS leverer utdanning i IT-utvikling og nøkkelkompetanser. G'en i GET er Geir Sollid. E'en Eskil Domben. T'en Terje Kolderup. Skolen holder til i andre etasje på Torget 8 i Larvik.");
                     Console.WriteLine("http://www.getacademy.no/");
+                    break;
+                case "bjarne, si at ole skal stå opp nå":
+                    synthesizer.SpeakAsync("Ok. Ole. Gunnar. Hellenes. Du skal stå opp nå. Hører du? Det er nudler med kylling på kjøkkenet. Du? Kanskje jeg også kan smake på det?");
+                    break;
+                case "gi meg et bjarnemat forslag":
+                    synthesizer.SpeakAsync("Ja da skal vi se. Kanskje " + Bjarnemat[random.Next(0, Bjarnemat.Length)] + ", vil friste?");
                     break;
             }
         }
